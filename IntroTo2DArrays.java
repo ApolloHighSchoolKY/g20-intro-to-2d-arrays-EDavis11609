@@ -29,8 +29,8 @@ public class IntroTo2DArrays{
     int sum = 0;
     for(int row=0; row<twoDee.length;row++)
     {
-      for(int col=0; col<twoDee[row].length;col++)
-    
+      for(int col=0; col<twoDee[0].length;col++)
+  
           {
             sum += twoDee[row][col];
           }
@@ -38,7 +38,7 @@ public class IntroTo2DArrays{
           sum = 0;
     }
 
-    for(int col=0; col<twoDee[col].length;col++)
+    for(int col=0; col<twoDee[0].length;col++)
     {
       for(int row=0; row<twoDee.length;row++)
     
